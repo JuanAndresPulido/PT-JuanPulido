@@ -1,2 +1,46 @@
 //VARIABLES
-$fuente-enlaces: arial
+//$fuente-enlaces: arial
+
+//Import Fuentes
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav a img {
+    width: 20%;
+    margin: 8px;
+}
+header nav span {
+    display: flex;
+    justify-self: right;
+    justify-content: space-around;
+    
+}
+header nav span a {
+    font-size: 1.1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 90px;
+    padding: 2px;
+    margin: 1px;
+    text-decoration: none;
+    text-align: center;
+}
+
+h1{
+    color: yellowgreen;
+    background-color: blue;
+    padding: 10px;
+}
+
+
+
+
