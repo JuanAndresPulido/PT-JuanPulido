@@ -1,0 +1,17 @@
+//ESTILOS DEL HOME
+@import 'variables.scss';
+@import 'reset.scss';
+section {
+    h1 {
+        background-color: $backcolor-ppal;
+        color: $font-color-ppal;
+        font-family: $font-ppal;
+        text-align: center;
+        padding: 5px;
+    }
+    img {
+        width: 100%;
+        margin: 0;
+
+    }
+}

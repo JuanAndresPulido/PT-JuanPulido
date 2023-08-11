@@ -1,15 +1,16 @@
-//Import Fuentes
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+//Import
 @import 'variables.scss';
 @import 'header.scss';
+@import 'reset.scss';
+@import 'home.scss';
+@import 'footer.scss';
+@import 'media320.scss';
 
 
-//ESTILOS
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
+
+
 
 
 

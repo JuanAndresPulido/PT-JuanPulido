@@ -1,46 +1,43 @@
 //ESTILOS DE LA CABECERA
 @import 'variables.scss';
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import 'reset.scss';
 
 header {
+    background-color: $backcolor-ppal;
+    display: flex;
+    padding: 0.5rem;
+    border-bottom: 1px solid whitesmoke;
+    height: 80px;
+    img {
+        width: 22%;
+        margin-top: 5px;
+        margin-left: 8px;
+        background-color: white;
+        padding: 4px;
+        transition: 1s;
+    }
+    img:hover{
+        width: 23%;
+    }
+
     nav{
-        display: flex;
-        align-items: center;
-        background-color: $backcolor-ppal;
-        //border-color: black;
-        //border-style:dashed;
-        img {
-            width: 20%;
-            margin-top: 8px;
-            margin-left: 8px;
-        }
-        span {
+        ul {
             display: flex;
-            justify-self: right;
-            justify-content: space-around;
-            a {
-                color:$font-color-ppal;
-                font-size: 1.1rem;
-                font-weight: bold;
-                font-family: $font-ppal;
-                width: 90px;
-                padding: 2px;
-                margin: 1px;
-                text-decoration: none;
-                text-align: center;
+            list-style-type:none;
+
+            li {
+                margin: 5px;
+                padding: 5px;
+                a{
+                    color:$font-color-ppal;
+                    font-size: 1.1rem;
+                    font-weight: bold;
+                    font-family: $font-ppal;
+                    text-decoration: none;
+                }
             }
         }
     }
-    h1 {
-        color: $font-color-ppal;
-        font-family: $font-ppal;
-        text-align: center;
-        background-color:$backcolor-ppal;
-        padding: 5px;
-    }
 }
+
+
