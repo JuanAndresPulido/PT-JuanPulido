@@ -1,4 +1,9 @@
 //ESTILOS DEL PIE DE PAGINA
 @import 'variables.scss';
-@import 'reset.scss';
-
+footer {
+    img {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+    }
+}

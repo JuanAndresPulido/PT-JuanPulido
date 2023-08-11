@@ -1,0 +1,43 @@
+@import 'variables.scss';
+
+
+#productos {
+    div {
+        display: flex;
+        p {
+            color: $font-color-body;
+            font-family: $font-ppal;
+            font-size:  1.8rem;
+            font-weight: bold;
+            padding: 5px;
+            margin: 10px;
+        }
+        ul{
+            display: flex;
+            list-style-type: none;
+            li{
+                margin-top: 22px;
+                padding: 5px;
+                color: $font-color-body;
+                font-family: $font-ppal;
+                font-size: 1rem;
+                a {
+                    text-decoration: none;
+                }
+            }
+
+        }
+        
+    }
+}
+.descripProd {
+    font-size: 1rem;
+    font-family: $font-ppal;
+    text-align: center;
+}
+.precioProd {
+    font-size: 1rem;
+    font-family: $font-ppal;
+    text-align: center;
+
+}
