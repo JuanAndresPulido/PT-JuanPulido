@@ -56,6 +56,19 @@ section img {
   margin: 0;
 }
 
+#cuenta {
+  color: #23FD00;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: bold;
+  font-size: 130%;
+  text-decoration: none;
+}
+
+.fotos_oficios {
+  width: 20%;
+  margin: 3px;
+}
+
 footer img {
   position: fixed;
   bottom: 20px;
@@ -70,27 +83,32 @@ footer img {
 #productos div {
   display: flex;
 }
-#productos div p {
+#productos div a {
+  text-decoration: none;
+}
+#productos div a p {
   color: black;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-size: 1.8rem;
   font-weight: bold;
-  padding: 5px;
+  padding: 2px;
   margin: 10px;
 }
 #productos div ul {
   display: flex;
+  margin-top: 22px;
   list-style-type: none;
 }
-#productos div ul li {
-  margin-top: 22px;
+#productos div ul li a {
+  text-decoration: none;
   padding: 5px;
   color: black;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-size: 1rem;
 }
-#productos div ul li a {
-  text-decoration: none;
+#productos h3 {
+  padding: 2px;
+  margin-left: 10px;
 }
 
 .descripProd {
