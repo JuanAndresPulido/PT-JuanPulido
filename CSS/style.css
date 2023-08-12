@@ -56,12 +56,15 @@ section img {
   margin: 0;
 }
 
-#cuenta {
-  color: #23FD00;
-  font-family: "IBM Plex Sans", sans-serif;
+#cuenta a {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-weight: bold;
   font-size: 130%;
   text-decoration: none;
+}
+#cuenta img {
+  width: 50%;
+  margin: 2px;
 }
 
 .fotos_oficios {

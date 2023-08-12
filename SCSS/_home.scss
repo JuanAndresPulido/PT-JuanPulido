@@ -16,12 +16,18 @@ section {
 }
 
 #cuenta {
-    color: #23FD00;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-weight: bold;
-    font-size: 130%;
-    text-decoration: none;
+    a {
+        font-family: $font-ppal;
+        font-weight: bold;
+        font-size: 130%;
+        text-decoration: none;
+    }
+    img {
+        width: 50%;
+        margin: 2px;
+    }
 }
+
 
 .fotos_oficios {
     width: 20%;
