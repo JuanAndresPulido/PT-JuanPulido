@@ -28,16 +28,29 @@ header {
             li {
                 margin: 5px;
                 padding: 5px;
-                a{
-                    color:$font-color-ppal;
+                .currentab {
+                    color: #fffafa;
                     font-family: $font-ppal;
                     font-size: 1.1rem;
                     font-weight: bold;
                     text-decoration: none;
                 }
+                a{
+                    color:$font-color-ppal;
+                    font-family: $font-ppal;
+                    font-size: 1.1rem;
+                    font-weight:bold;
+                    text-decoration: none;
+                }
+                a:hover{
+                    text-decoration: underline;
+                    text-decoration-thickness: 3px;
+                    text-underline-offset:4px;
+                }
             }
         }
     }
 }
+
 
 
