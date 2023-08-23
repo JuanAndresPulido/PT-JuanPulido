@@ -23,13 +23,51 @@
     </header>
     <section>
         <h1>TALLERES DE MI TIERRA</h1>
-        <img src="./catalogo/Banner1.png" alt="Banner Escuela Taller">
-        <img src="./catalogo/expoartesanias_2023_banner.jpg" alt="Expoartesanias">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./catalogo/Banner1.png" class="d-block w-100" alt="Banner Escuela Taller">
+              </div>
+              <div class="carousel-item">
+                <img src="./catalogo/banner2.png" class="d-block w-100" alt="Banner Colibri">
+              </div>
+              <div class="carousel-item">
+                <img src="./catalogo/expoartesanias_2023_banner.jpg" class="d-block w-100" alt="Banner Exporartesanias">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
     </section>
 </body>
-<footer>
-    <a href="https://www.instagram.com/" target="_blank">
-        <img src="./catalogo/WhatsApp.png" alt="logo whatsapp">
-    </a>
-</footer>
+<div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="index.html" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <img src="./catalogo/logo escuela.jpeg" alt="Logo Escuela">
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Talleres de Mi Tierra, Inc</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-body-secondary" href="https://twitter.com/" target="_blank"><img src="./catalogo/iconos/twitter.png" alt="Twitter"></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="https://www.youtube.com/" target="_blank"><img src="./catalogo/iconos/youtube.png" alt="YouTube"></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="https://www.facebook.com/" target="_blank"><img src="./catalogo/iconos/facebook.png" alt="Facebook"></a></li>
+        </ul>
+    </footer>
+    
+    <a href="https://www.instagram.com/" target="_blank"><img class="linkwap" src="./catalogo/WhatsApp.png" alt="logo whatsapp"></a>
+</div>
 </html>
